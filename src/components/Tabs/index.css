@@ -1,0 +1,23 @@
+
+.Tabs-options {
+    display: flex;
+    margin: 0 .35em;
+    max-height: 5vh;
+}
+
+.Tabs-option {
+    background-color: #fff;
+    padding: .2em .7em;
+    border-radius: .5em;
+    border: .1em solid rgb(121, 70, 50);
+    color: rgb(121, 70, 50);
+    margin: 0 -.35em;
+    z-index: 1;
+    transition: color ease .4s;
+}
+
+.Tabs-option-selected {
+    background-color: rgb(121, 70, 50);
+    color: rgb(236, 212, 180);
+    z-index: 2;
+}

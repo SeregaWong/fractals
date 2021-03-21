@@ -1,0 +1,65 @@
+{
+    "rules": {
+        "member-ordering": [
+            true,
+            {
+              "order": [
+                "public-instance-field",
+                "public-instance-accessor",
+                "protected-instance-field",
+                "protected-instance-accessor",
+                "private-instance-field",
+                "private-instance-accessor",
+                "public-static-field",
+                "public-static-accessor",
+                "protected-static-field",
+                "protected-static-accessor",
+                "private-static-field",
+                "private-static-accessor",
+                "constructor",
+                "public-instance-method",
+                "protected-instance-method",
+                "private-instance-method",
+                "public-static-method",
+                "protected-static-method",
+                "private-static-method"
+              ]
+            }
+        ],
+        "newline-before-return": true,
+        "no-console": true,
+        "no-empty-interface": true,
+        "no-trailing-whitespace": true,
+        "no-var-keyword": true,
+        "prefer-const": true,
+        "variable-name": {
+            "options": [
+              "check-format",
+              "require-const-for-all-caps",
+              "allow-leading-underscore",
+              "ban-keywords"
+            ]
+        },
+        "ordered-imports": true,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-rest-spread",
+            "check-type",
+            "check-type-operator"
+        ],
+        "no-irregular-whitespace": true,
+        "no-debugger": true,
+        "no-duplicate-imports": true,
+        "no-duplicate-switch-case": true,
+        "no-invalid-this": true,
+        "no-return-await": true,
+        "no-shadowed-variable": true,
+        "class-name": true,
+        "max-classes-per-file": true,
+        "no-require-imports": true
+    }
+}

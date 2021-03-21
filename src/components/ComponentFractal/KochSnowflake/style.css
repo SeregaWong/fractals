@@ -1,0 +1,54 @@
+
+.Koch-base-part-container {
+    position: relative;
+}
+.Koch-base-part {
+    height: .1px;
+    width: 33.333334%;
+    background-color: #646400;
+    position: absolute;
+}
+.Koch-base-part1 {
+    top: 100%;
+    left: 0%;
+}
+.Koch-base-part2 {
+    top: 50%;
+    left: 25%;
+    transform: rotate(300deg);
+}
+.Koch-base-part3 {
+    top: 50%;
+    left: 41.6666%;
+    transform: rotate(60deg);
+}
+.Koch-base-part4 {
+    top: 100%;
+    left: 66.6666%;
+}
+
+.Koch-container {
+    position: relative;
+}
+.Koch-element {
+    position: absolute;
+    width: 33.333334%;
+}
+.Koch-element1 {
+    top: 66.6666%;
+    left: 0%;
+}
+.Koch-element2 {
+    top: 25%;
+    left: 20.833333%;
+    transform: rotate(300deg);
+}
+.Koch-element3 {
+    top: 25%;
+    left: 45.8666%;
+    transform: rotate(60deg);
+}
+.Koch-element4 {
+    top: 66.6666%;
+    left: 66.67%;
+}
